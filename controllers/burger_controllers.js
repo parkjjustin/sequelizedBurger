@@ -6,7 +6,7 @@ module.exports = (app) => {
     });
 
     app.get("/burger", (request, response) => {
-        db.burger.findAll({order: [["burger_type"]]}).then(function(dbBurger){
+        db.burger.findAll({order: [["id"]]}).then(function(dbBurger){
             var hbsObject = {
                 burger: dbBurger
             };
