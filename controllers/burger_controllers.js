@@ -32,11 +32,11 @@ module.exports = (app) => {
         });
     });
 
-    app.delete("/burger/delete/:id", function(request, response) {
-        db.burger.destroy({
-            where: {id: request.params.id}
-        }).then(function(dbBurger) {
-            response.redirect("/");
-        });
-    });
+    // app.delete("/burger/delete/:id", function(request, response) {
+    //     db.burger.destroy({
+    //         where: {id: request.params.id}
+    //     }).then(function(dbBurger) {
+    //         response.redirect("/");
+    //     });
+    // });
 };
