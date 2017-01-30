@@ -38,7 +38,7 @@ li {
     background: rgb(240, 249, 249); 
     background: rgba(204, 204, 204, 0.5);
     width: 100%;
-    display: block;
+    /*display: block;*/
     margin: 10px 0 10px 0;
     padding: 5px;
 }

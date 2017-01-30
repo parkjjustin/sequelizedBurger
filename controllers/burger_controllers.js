@@ -16,10 +16,9 @@ module.exports = (app) => {
 
     app.post("/burger/create", (request, response) => {
         db.burger.create({
-            burger_type: request.body.burger_type,
-            devoured: 0
+            burger_type: request.body.burger_type
         }).then(function(dbBurger){
-            response.redirect("/");
+            response.redirect("/burger");
         });
     });
 
@@ -29,7 +28,7 @@ module.exports = (app) => {
         },{
             where: {id: request.params.id}
         }).then(function(dbBurger){
-            response.redirect("/");
+            response.redirect("/burger");
         });
     });
 
