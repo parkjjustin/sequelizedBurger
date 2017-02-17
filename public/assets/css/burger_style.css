@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 html {
     margin: 0;
     padding: 0;
@@ -8,7 +7,8 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.notEaten, .eaten {
+.notEaten,
+.eaten {
     margin: 0 auto;
     width: 30%;
     height: 100%;
@@ -17,14 +17,14 @@ html {
     vertical-align: top;
     text-align: left;
     padding: 20px;
-    background: rgb(240, 249, 249); 
+    background: rgb(240, 249, 249);
     background: rgba(204, 204, 204, 0.3);
 }
 
 .addBurger {
     margin: 0 auto;
     width: 30%;
-    background: rgb(240, 249, 249); 
+    background: rgb(240, 249, 249);
     background: rgba(204, 204, 204, 0.3);
 }
 
@@ -35,7 +35,7 @@ html {
 
 li {
     list-style-type: none;
-    background: rgb(240, 249, 249); 
+    background: rgb(240, 249, 249);
     background: rgba(204, 204, 204, 0.5);
     width: 100%;
     /*display: block;*/
@@ -64,6 +64,6 @@ button {
     margin: 0 auto 5px;
     width: 65%;
     padding: 10px;
-    background: rgb(240, 249, 249); 
+    background: rgb(240, 249, 249);
     background: rgba(204, 204, 204, 0.3);
 }
